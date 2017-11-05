@@ -1,0 +1,12 @@
+Project Check-in:
+ - Gathered data from UCI Machine Learning Repo, read in CSV file 
+ - Have thoroughly explored the data and found patterns in how certain features relate to the class column. Analyzed shape of dataset,
+ types of the series, columns and index, encoding categorical features into numeric features, and correlations in the dataset. Analyzed how 
+ the different features relate to the outcome of the target. 
+ - I can come to a conclusion with the data that I have gathered, but more data would be a massive help. More data would allow me to more 
+ accurately find out which model is best in this situation. 
+ - I am using multiple modeling approaches to explore this data. This is a classification problem, so I used a logistic regression model,
+ a decision tree, and a random forest. I also experimented with tuning different parameters and cross-validation. It seems the random forest
+ will yield the highest accuracy. 
+ - Only using the 'unacc' column as a response variable. Ultimately trying to determine whether a car will be placed into the unaccepted 
+ category, or the acceptable, good, very good categories. 
